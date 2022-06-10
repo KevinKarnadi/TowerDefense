@@ -8,15 +8,34 @@ This game is written in C++, and uses the Allegro5 library.
 
 ### Gameplay
 
-In this game, you need to defend your house from the incoming invaders.
+In this game, you need to defend your house from the incoming invaders.<br/>
+On every round, you need to prevent the enemies from entering your house (your house is on the left side of the map).<br/>
+The game will end if there is no enemy left or if there is at least one enemy that crosses the left side of the map.
 
-There are various kinds characters that you can place on the map, each with different appearances and characteristics:
+There are various kinds of characters that you can place on the map, each with different appearances and characteristics:
 
-On every round, you need to prevent the enemies from entering your house (your house is on the left side of the map). The game will end if there is no enemy left or if there is at least one enemy that crosses the left side of the map.
+![turret-1](https://user-images.githubusercontent.com/86511372/173024147-9b382745-6700-48a5-bfeb-2e4a1a42a520.png)
+![turret-2](https://user-images.githubusercontent.com/86511372/173024193-38ecf090-e801-4bff-83e6-b22f8f8a64a9.png)
+![turret-3](https://user-images.githubusercontent.com/86511372/173024213-a8453b3c-ceb3-4221-8163-f8f8746da017.png)
+![turret-4](https://user-images.githubusercontent.com/86511372/173024232-a7033292-8b2e-4346-af17-74101545768d.png)
+![turret-5](https://user-images.githubusercontent.com/86511372/173024245-41a5267e-e4ee-4c9b-ad08-80ff4858c306.png)
+
+There are also various kinds of enemies, each with different appearances and characteristics:
+
+![enemy-1](https://user-images.githubusercontent.com/86511372/173024703-9e4e360d-a737-403b-be0e-a4d6ea2030ca.png)
+![enemy-2](https://user-images.githubusercontent.com/86511372/173024714-646513ca-392e-46e6-986e-5c4f55820312.png)
+![enemy-3](https://user-images.githubusercontent.com/86511372/173024730-8544c3ca-7508-4d72-a8ac-db10734e0b10.png)
+![enemy-4](https://user-images.githubusercontent.com/86511372/173024768-07a72cd6-7951-4925-9dd8-85de3b10ffae.png)
+![enemy-5](https://user-images.githubusercontent.com/86511372/173024791-6e96edc2-0578-430b-a294-7aef4b90dc14.png)
 
 ### Controls
 
-Click on a character to select it and click on an empty tile to place it
+- Click on a character to select it and click on an empty tile to place it
+- Click on the bomb and place it on a tile with a character to remove it from the map
+
+  ![bomb](https://user-images.githubusercontent.com/86511372/173024353-545ba1b5-1052-481f-84a1-0e0f49471294.png)
+
+- Press Up, Up, Down, Down, Left, Right, Enter to activate cheat code
 
 ## Screenshots
 
